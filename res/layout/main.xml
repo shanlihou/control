@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+>
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/stateText"
+              android:layout_height="wrap_content"/>
+    <Button android:layout_width="wrap_content"
+            android:id="@+id/btUserList"
+            android:text="user"
+            android:layout_height="wrap_content"/>
+    <Button android:layout_width="wrap_content"
+            android:id="@+id/btSearchList"
+            android:text="search"
+            android:layout_height="wrap_content"/>
+    <Button android:layout_width="wrap_content"
+            android:id="@+id/btUpload"
+            android:text="upload"
+            android:layout_height="wrap_content"/>
+    <EditText android:layout_width="200dp"
+              android:id="@+id/searchServer"
+              android:layout_height="wrap_content"/>
+    <EditText android:layout_width="200dp"
+              android:id="@+id/versionCode"
+              android:layout_height="wrap_content"/>
+    <EditText android:layout_width="200dp"
+              android:id="@+id/apkUrl"
+              android:layout_height="wrap_content"/>
+</LinearLayout>
+
